@@ -19,4 +19,15 @@ main(){
 
   final area = pi * double.parse(raio) * double.parse(raio);
   print('A área da circunferêcia é: ' + area.toString());
+
+  // Constantes segunda parte
+  final lista_1 = ['João', 'Bia', 'Gabi'];
+  lista_1.add('Diogo');
+
+  // lista = ['Banana', 'Maçã'] -> Se for final da erro
+
+  print(lista_1);
+
+  final lista_2 = const ['Banana', 'Maçã', 'Pera'];
+  // lista_2.add('Abacate'); -> Da erro pois tem o const antes dos valores
 }
