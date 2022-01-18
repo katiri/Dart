@@ -1,0 +1,1 @@
+Dentro desse desafio também foram atribuidos os conceitos de Getters/Setters 

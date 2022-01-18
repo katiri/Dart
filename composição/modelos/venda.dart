@@ -1,0 +1,13 @@
+import 'clientes.dart';
+import 'venda_item.dart';
+
+class Venda{
+  Cliente cliente;
+  List<VendaItem> itens;
+
+  Venda({required this.cliente, this.itens = const []});
+
+  double get valor_total{
+    return itens.map((item) => item.preco * item.quantidade).reduce((a , b) => a + b);
+  }
+}
